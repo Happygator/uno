@@ -23,7 +23,7 @@ string Card::Print() {
     if (color == "") {
         return value;
     } else if (value == "") {
-        return color;
+        return "any " + color;
     }
     return color + " " + value;
 }

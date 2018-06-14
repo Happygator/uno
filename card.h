@@ -17,6 +17,13 @@
 #include <string>
 
 const std::string colors[4] = {"red", "yellow", "green", "blue"};
+const std::string draw4 = "draw4";
+const std::string wild = "wild";
+const std::string draw2 = "draw2";
+const std::string skip = "skip";
+const std::string reverse = "reverse";
+
+
 
 class Card {
 public:

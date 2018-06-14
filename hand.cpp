@@ -38,7 +38,7 @@ Card Hand::PlayCard(int cardtoplay){
 }
 int Hand::FirstPlayableCard(const Card& currentcard){
     for (int i = 0; i < cards.size(); i++) {
-        if (CardCanPlay(currentcard, CardatPosition(i))){
+        if (CardCanPlay(currentcard, cards.at(i))){
             return i;
         }
     }
